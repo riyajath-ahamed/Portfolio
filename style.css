@@ -9,8 +9,8 @@ body{
 }
 
 nav{
-    position: -webkit-sticky;
-    background:#fff;
+    position: absolute;
+    /* background:#fff; */
     z-index: 100;
     height: 8vh;
     width: 96%;
@@ -24,7 +24,7 @@ nav{
 }
 
 .logo{
-    color: #000;
+    color: #fff;
     font-weight: 900;
     font-size: 20px;
     
@@ -32,19 +32,20 @@ nav{
 
 nav .nav-links ul{
     display: flex;
-    
+    padding-left: 161vh;
     flex-direction: row;
 }
 
 nav .nav-links ul li {
     padding: 0 4px;
-    
+    margin: -100;
     list-style: none;
 }
 
 nav .nav-links ul li img{
     width: 250px;
-    
+    color: #fff;
+    filter: invert(100%);
     transform: scale(0.1);
 }
 
@@ -112,3 +113,81 @@ section{
     filter: brightness(0.9);
 }
 
+
+
+
+
+/* swiper */
+#sectiontwo{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.rockbg1{
+    position: absolute;
+    transform: scale(0.2);
+    filter: brightness(0.2);
+    top: 20vh;
+    left: 0;
+    z-index: 1;
+}
+
+.planet-links{
+    width: 95%;
+    height: 5vh;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+
+.planet-links .swiper-pagination-bullet{
+    opacity: 0.2;
+    outline: none;
+
+}
+
+.planet-links .swiper-pagination-bullet-active{
+    opacity: 1;
+    color: #fff;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: transparent;
+}
+
+
+.swiper-container{
+    position: absolute;
+    top: 50;
+    transform: translateY(-50%);
+    padding: 50px 0;
+
+}
+
+.swiper-wrapper{
+    transition-delay: 0.5s;
+}
+
+.swiper-slide{
+    height: 400px !important;
+    width: 90% !important;
+    background: transparent;
+}
+
+.swiper-slide:nth-child(1) .slide-img{
+    background-image: url("Image/mine.png");
+}
+
+.slide-img{
+    background-position: "center";
+    background-repeat: no-repeat !important;
+
+    background-size: contain;
+    width: 30%;
+    height: 100%;
+}
