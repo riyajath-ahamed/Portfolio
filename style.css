@@ -191,3 +191,88 @@ section{
     width: 30%;
     height: 100%;
 }
+
+.slide-number{
+    position: absolute;
+    top: -30px;
+    left: 30%;
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.slide-number p {
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive !important;
+    color: #fff;
+    position: relative;
+}
+
+.slide-number p span{
+    position: absolute;
+}
+
+.slide-detail {
+    position: absolute;
+    top: 130px;
+    left: 30%;
+    z-index: 10;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slide-detail p {
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    opacity: 0.8;
+    line-height: 30px;
+}
+
+.slide-detail p span {
+    position: absolute;
+}
+
+.slide-detail-facts {
+    position: absolute;
+    top: 240px;
+    left: 30%;
+    z-index: 10;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    color: #fff;
+    
+}
+
+.slide-detail-facts div{
+    display: flex;
+    position: relative;
+}
+
+.slide-detail-facts div h5{
+    margin-right: 20px;
+}
+
+.slide-text{
+    /* position: absolute; */
+    top: -150px;
+    left: 22%;
+    z-index: 9;
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+    opacity: 0.1 !important;
+}
+
+.slide-text h4{
+    color: #fff;
+    font-size: 100px;
+    position: relative;
+}
+
+.slide-text h4 span{
+    position: absolute;
+}
