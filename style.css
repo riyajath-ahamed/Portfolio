@@ -229,7 +229,7 @@ section{
 .slide-details {
     position: absolute;
     top: 130px;
-    left: 60%;
+    left: 50%;
     z-index: 10;
     width: 150%;
     height: 500px;
