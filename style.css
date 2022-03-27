@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -163,18 +165,20 @@ section{
 
 .swiper-container{
     position: absolute;
-    top: 50;
-    transform: translateY(-50%);
+    top: 30px;
+    scale: 300%;
+    transform: translateY(-25%);
+    /* transform: translatex(50%); */
     padding: 50px 0;
 
 }
 
 .swiper-wrapper{
-    transition-delay: 0.5s;
+    transition-delay: 0.1s;
 }
 
 .swiper-slide{
-    height: 400px !important;
+    height: 300px !important;
     width: 90% !important;
     background: transparent;
 }
@@ -194,16 +198,16 @@ section{
 
 .slide-number{
     position: absolute;
-    top: -30px;
+    top: -310px;
     left: 30%;
-    width: 200px;
+    width: 300px;
     height: 120px;
     overflow: hidden;
     z-index: 10;
 }
 
 .slide-number p {
-    font-size: 40px;
+    font-size: 100px;
     font-family: 'Bebas Neue', cursive !important;
     color: #fff;
     position: relative;
@@ -220,6 +224,15 @@ section{
     z-index: 10;
     width: 100%;
     height: 400px;
+    overflow: hidden;
+}
+.slide-details {
+    position: absolute;
+    top: 130px;
+    left: 60%;
+    z-index: 10;
+    width: 150%;
+    height: 500px;
     overflow: hidden;
 }
 
@@ -257,11 +270,11 @@ section{
 }
 
 .slide-text{
-    /* position: absolute; */
-    top: -150px;
-    left: 22%;
+    position: relative;
+    top: -100px;
+    left: 10%;
     z-index: 9;
-    width: 200px;
+    width: 400px;
     height: 400px;
     overflow: hidden;
     opacity: 0.1 !important;
@@ -269,6 +282,7 @@ section{
 
 .slide-text h4{
     color: #fff;
+    font-family: 'Staatliches', cursive;
     font-size: 100px;
     position: relative;
 }
@@ -276,3 +290,31 @@ section{
 .slide-text h4 span{
     position: absolute;
 }
+
+
+.animated{
+    -webkit-animation-duration:1s;
+    animation-duration:1s;-webkit-animation-fill-mode:both;
+    animation-fill-mode:both
+}
+
+.tagcloud {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 20px;
+    font-weight: 650;
+    
+    
+  }
+  .tagcloud--item:hover {
+    color: #df0bc3;
+  }
+
+
+
+
+
+
+  
+
+
+
