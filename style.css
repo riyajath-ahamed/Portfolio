@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+  @-ms-viewport {
+    width: device-width ;
+  }
+
 body{
     margin: 0;
     padding: 0;
@@ -185,11 +194,13 @@ section{
 
 .swiper-slide:nth-child(1) .slide-img{
     background-image: url("Image/mine.png");
+    
 }
 
 .slide-img{
     background-position: "center";
     background-repeat: no-repeat !important;
+    
 
     background-size: contain;
     width: 30%;
